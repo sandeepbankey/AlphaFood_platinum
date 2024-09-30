@@ -1,0 +1,190 @@
+/* first cantainer start*/
+.firstcate {
+    background: url('https://thumbs.dreamstime.com/b/italian-food-background-pasta-ingredients-dark-top-view-cooking-concept-restaurant-uncooked-cook-natural-tableau-organic-188727438.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 30px;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    text-align: start;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-size: large;
+}
+
+.link {
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.link a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* first container end  */
+
+/* second container start */
+
+.secondcate {
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-data {
+    border: 1px solid black;
+    color: rgb(155, 146, 146);
+    border: 0;
+    font-size: 30px;
+    display: flex;
+    /* margin-right: 30px; */
+    gap: 40px;
+}
+
+.three-data select {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.521);
+    /* border-color:red ; */
+}
+
+.cate-icon:hover {
+    color: red;
+    border-color: red;
+    transition: 1s ease;
+}
+
+.cate-icon {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+.cate-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cate-main {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cate-main img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.catename {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.catename h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rate {
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rate p {
+    display: flex;
+    margin: 0;
+    font-size: 14px;
+    color: #f39c12;
+}
+
+.pri-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cate-price {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #2ecc71;
+}
+
+.cate-price svg {
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d35400;
+}
+
+.btn-icon svg {
+    font-size: 16px;
+}
+
+.grid-view .cate-main {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.list-view .cate-main {
+    display: flex;
+    width: 40%;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.list-view img {
+    width: 350px;
+    margin-right: 20px;
+}
+
+

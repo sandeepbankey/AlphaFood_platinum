@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sociel {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(221, 27, 27, 0.795);
+}
+
+.c-logo {
+    display: flex;
+    color: aliceblue;
+    margin-left: 90px;
+}
+
+.c-logo p {
+    font-size: 65px;
+
+}
+
+.follow {
+    font-size: large;
+    gap: 10px;
+    color: aliceblue;
+    display: flex;
+    margin-right: 90px;
+}
+
+.footer-page {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+/* cjdsnfkwenf */
+
+footer {
+    background-color: #2c2c2cb7;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.sociel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    /* border-bottom: 1px solid #444; */
+}
+
+.sociel .c-logo {
+    display: flex;
+    align-items: center;
+}
+
+.sociel .c-logo p {
+    font-size: 40px;
+    color: white;
+}
+
+.sociel .c-name {
+    margin-left: 10px;
+}
+
+.sociel .c-name h1 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.sociel .c-name div {
+    font-size: 16px;
+    color: white;
+}
+
+.sociel .follow h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.sociel .icons {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+
+/* Footer Pages Section */
+.footer-page {
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+}
+
+.footer-page div {
+    margin-bottom: 20px;
+}
+
+.footer-page h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-page p {
+    margin: 5px 0;
+    color: #948b8b;
+    font-size: 14px;
+}
+
+.footer-page p:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.down-app .app-img {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.down-app .app-img img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.copy {
+    font-size: 14px;
+    color: #948b8b;
+    background-color: #2c2c2cb7;
+}

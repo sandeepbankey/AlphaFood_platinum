@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-main-page {
+    height: 100%;
+    width: 100vw;
+    /* margin: 1em; */
+}
+
+/* Main page container with flexbox for alignment */
+.main-page {
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sign-in Page styling */
+#singin-page {
+    border-radius: 20px 0 0 20px;
+    width: 600px;
+    height: 100vh;
+    background-color: lightseagreen;
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singin-wlc {
+    margin-bottom: 50px;
+}
+
+.singin-p {
+    margin-top: 50px;
+    font-size: medium;
+}
+
+#singin-btn {
+    border: white solid 2px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-size: medium;
+    background-color: lightseagreen;
+    border-color: aliceblue;
+    color: aliceblue;
+    width: 10em;
+    height: 2.7em;
+}
+
+/* Sign-up Page styling */
+#singup-page {
+    width: 600px;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+}
+
+.sinup-title {
+    color: lightseagreen;
+}
+
+.user-name {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.singup-icon {
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+
+.social-logo {
+    display: flex;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.facebook {
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.google {
+    margin-right: 30px;
+}
+
+.linkedin {
+    margin-right: 30px;
+}
+
+#singup-form {
+    font-size: large;
+}
+
+.singup-name {
+    width: 300px;
+    background-color: rgba(184, 233, 217, 0.58);
+    border: 0;
+    height: 30px;
+}
+
+.singup-btn {
+    border: 0;
+    border: white solid 2px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-size: medium;
+    background-color: lightseagreen;
+    border-color: aliceblue;
+    color: aliceblue;
+    width: 10em;
+    height: 2.7em;
+}
+
+/* Responsive Media Queries */
+
+/* For tablets (768px and below) */
+@media (max-width: 768px) {
+    .main-page {
+        flex-direction: column;
+        /* Stack sign-in and sign-up vertically */
+        border-radius: 0;
+    }
+
+    #singin-page,
+    #singup-page {
+        width: 100%;
+        height: auto;
+        /* Allow content to adjust height */
+        border-radius: 0;
+    }
+
+
+
+    .singup-name,
+    .singup-btn {
+
+        width: 80%;
+        /* Adjust input/button widths */
+
+    }
+}
+
+/* For mobile devices (480px and below) */
+@media (max-width: 480px) {
+    .main-page {
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    #singin-page,
+    #singup-page {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+
+    .singup-name,
+    .singup-btn {
+        width: 90%;
+        /* Full-width input/buttons on mobile */
+    }
+
+    .singup-btn {
+        font-size: small;
+        /* Smaller button text */
+    }
+
+    .social-logo {
+        flex-direction: column;
+        /* Stack social logos vertically */
+        align-items: center;
+    }
+
+    .facebook,
+    .google,
+    .linkedin {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-main-page {
+    /* display: flex; */
+    height: 100%;
+    width: 100vw;
+}
+
+.log-main {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+    align-items: center;
+    justify-content: center;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 80px 0 80px ;
+}
+
+.log-left,
+.log-right {
+    width: 50%;
+    /* Default: Each takes 50% width on large screens */
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-left {
+    background-color: lightseagreen;
+    color: aliceblue;
+    border-radius: 20px 0 0 20px;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.logo p {
+    font-size: 13px;
+    align-self: center;
+}
+
+.c-logo {
+    bottom: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -30px;
+    font-size: 60px;
+}
+
+.log-right {
+    background-color: aliceblue;
+    border-radius: 0 20px 0 20px;
+}
+
+.create-acc {
+    margin-left: auto;
+    top: 40px;
+    margin-bottom: 8em;
+    right: 50px;
+    color: rgba(105, 108, 110, 0.838);
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.log-form {
+    flex-direction: column;
+    display: flex;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-iconi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-input {
+    margin: 10px;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    border-color: rgba(116, 124, 124, 0.622);
+    border-style: solid;
+    border-radius: 6px;
+}
+
+.forget-pass {
+    margin-left: 200px;
+    color: rgba(105, 108, 110, 0.838);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.radiobtn {
+    font-size: 14px;
+    position: relative;
+    margin-right: 180px;
+    color: rgba(105, 108, 110, 0.838);
+}
+
+span {
+    margin-left: 10px;
+}
+
+.log-btn {
+    background-color: rgb(21, 235, 199);
+    color: white;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hr {
+    display: flex;
+    color: rgba(105, 108, 110, 0.838);
+}
+
+.line {
+    width: 90px;
+    height: 0;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(105, 108, 110, 0.838);
+    margin-top: 20px;
+}
+
+.log-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.log-google,
+.log-facebook,
+.log-twitter {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.log-google {
+    background-color: red;
+}
+
+.log-facebook {
+    background-color: blue;
+}
+
+.log-twitter {
+    background-color: rgb(53, 214, 160);
+}
+
+/* Media queries for responsiveness */
+
+/* Tablets */
+@media (max-width: 768px) {
+
+    .log-left,
+    .log-right {
+        width: 100%;
+        /* Full width on tablet */
+        height: auto;
+        /* Auto height */
+    }
+
+    .log-input {
+        width: 80%;
+        /* More flexible width on smaller screens */
+    }
+
+    .forget-pass {
+        margin-left: auto;
+        /* Align appropriately */
+    }
+
+    .radiobtn {
+        margin-right: auto;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+        /* Smaller font size */
+    }
+
+    .log-input {
+        width: 100%;
+        /* Full width input on mobile */
+    }
+
+    .log-btn {
+        width: 90%;
+        /* Full width button */
+        font-size: 14px;
+    }
+
+    .create-acc {
+        right: 20px;
+        /* Adjust margin */
+    }
+
+    .forget-pass {
+        margin-left: auto;
+        font-size: 12px;
+        /* Smaller font */
+    }
+}

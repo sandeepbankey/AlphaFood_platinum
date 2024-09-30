@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.home-first {
+    /* text-align: left; */
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    /* max-width: auto; */
+    width: 100%;
+    background: url("https://img.freepik.com/free-photo/view-ready-eat-delicious-meal-go_23-2151431768.jpg?t=st=1726134030~exp=1726137630~hmac=be342901696af253d1b294af17e580750be02faaac6fe2ed316456c0ba93deee&w=900") no-repeat center center;
+    height: 29em;
+    background-color: red;
+    background-size: 100% auto;
+}
+
+.fresh {
+    width: 100%;
+    padding-top: 130px;
+    translate: 15%;
+}
+
+h3 {
+    width: 100%;
+    color: red;
+    font-size: 30px;
+}
+
+.home-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.foods-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.foods {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto;
+    width: 100%;
+
+}
+
+.food {
+    flex: 0 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+.food img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.food h4 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.left-aro,
+.right-aro {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.left-aro {
+    left: 0;
+}
+
+.right-aro {
+    right: 0;
+}
+
+.third-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ecbcbc98;
+    padding: 60px;
+    /* padding: 10px 0 10px 0; */
+}
+
+.first-info {
+    background: url('https://wallpapercave.com/wp/wp2186059.jpg') no-repeat center center;
+    /* background-size: contain; */
+    height: 250px;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.second-info {
+    background: url('https://c0.wallpaperflare.com/preview/484/1001/148/cookie-cookies-recipes-sugar.jpg?w=740') no-repeat center center;
+    /* background-size: contain; */
+    height: 250px;
+    width: 300px;
+    color: aliceblue;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.offer-orng {
+    color: orange;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.third-info {
+    background: url('https://cdn.pixabay.com/photo/2024/04/18/10/41/ai-generated-8704064_640.jpg') no-repeat center center;
+    /* background-size: contain; */
+    height: 250px;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.offer {
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* JSON data css start */
+.flex-rest {
+    /* background-color: rgba(187, 181, 181, 0.733); */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+
+.choice-btn {
+    border: 0;
+    margin-right: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* display: flex; */
+    margin-left: 490px;
+    margin-right: 80px;
+}
+
+.btn {
+
+    border: 0;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(129, 128, 128, 0.199);
+}
+
+.btn:first-of-type {
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    margin: 5px;
+    padding: 3px;
+}
+
+.data-container {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.data-container:hover {
+    border-radius: 10px;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+}
+
+.data-container img {
+    width: 200px;
+    height: 120px;
+    border-radius: 7%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid #e0e0e0;
+}
+
+.data-container h3 {
+    font-size: 22px;
+    margin: 12px 0;
+    color: #333333;
+}
+
+.data-container p {
+    margin: 6px 0;
+    color: #666666;
+    font-size: 14px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    float: left;
+}
+
+.loc-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.location p {
+    margin: 0;
+    color: #444444;
+}
+
+.flex {
+    /* background-color: rgba(187, 181, 181, 0.733); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    gap: 120px;
+
+}
